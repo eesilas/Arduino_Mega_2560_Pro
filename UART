@@ -1,0 +1,24 @@
+The Arduino Mega 2560 Pro (based on the ATmega2560 microcontroller) has four UART (Universal Asynchronous Receiver/Transmitter) interfaces, each with dedicated TX (Transmit) and RX (Receive) pins. Here's the complete list:
+
+UART Pins on Arduino Mega 2560 Pro:
+UART0 (Serial)
+
+TX0 → Pin 1 (also labeled TX0)
+RX0 → Pin 0 (also labeled RX0)
+This is the default serial port used for USB communication with the Arduino IDE.
+UART1 (Serial1)
+
+TX1 → Pin 18
+RX1 → Pin 19
+UART2 (Serial2)
+
+TX2 → Pin 16
+RX2 → Pin 17
+UART3 (Serial3)
+
+TX3 → Pin 14
+RX3 → Pin 15
+Notes:
+UART0 (Serial) is typically used for programming and debugging via USB.
+UART1, UART2, and UART3 can be used for additional serial communication (e.g., GPS, Bluetooth, other microcontrollers).
+Avoid using Pin 0 (RX0) and Pin 1 (TX0) for other purposes if you need serial communication.
